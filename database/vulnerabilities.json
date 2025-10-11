@@ -1,0 +1,50 @@
+{
+    "ssh": {
+        "CVE-2023-0001": {
+            "description": "OpenSSH vulnerability allowing unauthorized access",
+            "severity": "high",
+            "cvss_score": 7.5,
+            "affected_versions": ["7.4", "7.5", "7.6", "7.7"]
+        }
+    },
+    "http": {
+        "CVE-2023-0002": {
+            "description": "HTTP service information disclosure vulnerability",
+            "severity": "medium",
+            "cvss_score": 5.3,
+            "affected_versions": ["1.0", "1.1", "2.0"]
+        }
+    },
+    "ftp": {
+        "CVE-2023-0003": {
+            "description": "FTP service buffer overflow vulnerability",
+            "severity": "critical",
+            "cvss_score": 9.1,
+            "affected_versions": ["2.0", "2.1", "2.2"]
+        }
+    },
+    "mysql": {
+        "CVE-2023-0004": {
+            "description": "MySQL authentication bypass vulnerability",
+            "severity": "high",
+            "cvss_score": 8.2,
+            "affected_versions": ["5.7", "8.0"]
+        }
+    },
+    "apache": {
+        "CVE-2023-0005": {
+            "description": "Apache HTTP Server path traversal vulnerability",
+            "severity": "medium",
+            "cvss_score": 6.5,
+            "affected_versions": ["2.4.49", "2.4.50"]
+        }
+    },
+    "nginx": {
+        "CVE-2023-0006": {
+            "description": "Nginx memory leak vulnerability",
+            "severity": "low",
+            "cvss_score": 3.7,
+            "affected_versions": ["1.18", "1.19", "1.20"]
+        }
+    }
+}

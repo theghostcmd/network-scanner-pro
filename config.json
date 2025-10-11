@@ -1,0 +1,31 @@
+{
+    "scan_settings": {
+        "default_timeout": 2,
+        "max_threads": 100,
+        "ping_sweep": true,
+        "arp_scan": true,
+        "syn_scan": true,
+        "udp_scan": false,
+        "service_detection": true,
+        "os_detection": true
+    },
+    "vulnerability_settings": {
+        "cve_lookup": true,
+        "ssl_checks": true,
+        "weak_credential_testing": false,
+        "web_vulnerability_checks": true
+    },
+    "report_settings": {
+        "company_name": "Network Scanner Pro",
+        "include_executive_summary": true,
+        "include_technical_details": true,
+        "generate_pdf": true,
+        "generate_html": true,
+        "generate_csv": true
+    },
+    "network_settings": {
+        "rate_limit": 100,
+        "packet_delay": 0,
+        "max_ports": 1000
+    }
+}
