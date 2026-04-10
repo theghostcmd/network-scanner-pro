@@ -128,7 +128,5 @@ python main.py -t 192.168.1.0/24 -m discovery
 
 # Batch scanning
 python main.py --batch -f targets.txt -m full
-
-
 # Full assessment with custom ports
 sudo python main.py -t 192.168.1.1 -p 1-1000 -m full -o pdf
