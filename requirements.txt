@@ -4,7 +4,7 @@ requests==2.31.0
 reportlab==4.0.4
 pandas==2.0.3
 matplotlib==3.7.2
+Jinja2==3.1.2
 colorama==0.4.6
 urllib3==1.26.16
 beautifulsoup4==4.12.2
-Jinja2==3.1.2
