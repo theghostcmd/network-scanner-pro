@@ -120,15 +120,15 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 License
 This tool is provided for educational and authorized security testing purposes only.
 
-# Batch scanning
-python main.py --batch -f targets.txt -m full
-
-
 # Interactive mode
 python main.py --interactive
 
 # Network discovery only
 python main.py -t 192.168.1.0/24 -m discovery
+
+# Batch scanning
+python main.py --batch -f targets.txt -m full
+
 
 # Full assessment with custom ports
 sudo python main.py -t 192.168.1.1 -p 1-1000 -m full -o pdf
